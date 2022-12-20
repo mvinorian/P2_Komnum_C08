@@ -50,9 +50,9 @@ class Romberg:
         print("-{:s}-+".format(width*"-") * len(self.data[-1]))
 
 # Example of Usage
-import math
-
 if __name__ == "__main__":
+    import math
+
     romberg = Romberg()
     f = lambda x: math.exp(x)
 
